@@ -6,6 +6,10 @@
   color: #222;
 }
 
+aside {
+  margin-left: 50%;
+}
+
 li { font-weight: bold; }
 
 #top {
