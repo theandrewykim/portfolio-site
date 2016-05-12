@@ -19,6 +19,7 @@ li { font-weight: bold; }
   margin-top: 0px;
   text-align: center;
   max-width: 100%;
+  border-radius: 10%;
   animation: fadein 1s;
 }
 
@@ -52,6 +53,12 @@ li { font-weight: bold; }
     animation: bouncex 3.8s;
 
   }
+
+  li a:hover {
+   font-weight: bold;
+
+  }
+
 
 /* animations*/
   @-webkit-keyframes fadein {
@@ -123,28 +130,28 @@ li { font-weight: bold; }
     padding-bottom: 6px;
   }
   50% {
-    -webkit-transform:translateX(-30%);
+    -webkit-transform:translateX(30%);
   }
   70% {
     -webkit-transform:translateX(0%);
     padding-bottom: 7px;
   }
   80% {
-    -webkit-transform:translateX(-15%);
+    -webkit-transform:translateX(15%);
   }
   90% {
     -webkit-transform:translateX(0%);
     padding-bottom: 8px;
   }
   93% {
-    -webkit-transform: translateX(-12.5%);
+    -webkit-transform: translateX(12.5%);
   }
   95% {
     -webkit-transform:translateX(0%);
     padding-bottom: 8.5px;
   }
   96% {
-    -webkit-transform:translateX(-10%);
+    -webkit-transform:translateX(10%);
   }
 
   97% {
@@ -152,10 +159,11 @@ li { font-weight: bold; }
     padding-bottom: 9px;
   }
   99% {
-    -webkit-transform:translateX(-5%);
+    -webkit-transform:translateX(5%);
   }
   100% {
     -webkit-transform:translateX(0);
     padding-bottom: 9px;
   }
 }
+
